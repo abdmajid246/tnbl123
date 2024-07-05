@@ -12,10 +12,6 @@ Image.open('tnb.png').convert('RGB').save('tnb.png')
 im = Image.open("tnb.png")
 st.image(im,width=300,caption ="TNB Logo")
 
-Image.open('TNB_animated.gif').save('TNB_animated.gif')
-im = Image.open("TNB_animated.gif")
-st.image(im,width=300,caption ="TNB_animation")
-
 
 col1,col2 =st.columns(2)
 
